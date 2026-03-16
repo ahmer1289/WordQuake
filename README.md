@@ -42,8 +42,7 @@
 •	Performance Targets: (TBD)
 
 <h2>Team and Roles</h2>
-•	Team Members: <i>Adithya, Ahmed, Enwongo-Abasi, Imogen, Sadie</i>
-•	Roles and Responsibilities: (TBD)
+•	Team Members: <i>Adithya, Ahmer, Enwongo-Abasi, Imogen, Sadie</i>
 
 <h2>Risks and Challenges</h2>
 •	Potential Risks: Word Limitations and separating Words into Themes
