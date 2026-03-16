@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65f92a890bf18ce4a9ee2425ce6785a4, type: 3}
+  m_Name: SpecialWords Database
+  m_EditorClassIdentifier: 
+  spawnableWords:
+  - {fileID: 11400000, guid: afa18a207a029fd488e149908015851b, type: 2}
+  - {fileID: 11400000, guid: 32aafaa06fc2880439b4ea3df607eecc, type: 2}
+  - {fileID: 11400000, guid: fbf78641f809d8d4dabe28c810677fd3, type: 2}
+  - {fileID: 11400000, guid: 58197e04b79b1b7429b4c046ee5f93b0, type: 2}

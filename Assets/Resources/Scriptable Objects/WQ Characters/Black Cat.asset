@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e3f4756607cb8d4c99ccd2ebb45bd7d, type: 3}
+  m_Name: Black Cat
+  m_EditorClassIdentifier: 
+  m_CharacterName: Black Cat
+  m_Sprite: {fileID: 8218440460609821634, guid: adae60bfcc5998e4eb9fa2eac87ea9b6, type: 3}
+  m_Animator: {fileID: -8909993172027018615, guid: adae60bfcc5998e4eb9fa2eac87ea9b6, type: 3}
+  m_AnimatorWithGlow: {fileID: -2743310552797386855, guid: 01a97cc3d62c88c4a951e75967514165, type: 3}
+  m_SittingPositionOnCushion: {x: 0, y: 0}

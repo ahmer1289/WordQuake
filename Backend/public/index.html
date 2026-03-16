@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WordQuake</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <link rel="icon" type="image/gif" href="./Images/kitsuneanim.gif">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="mainContainer" style="display: block;">
+        <h1 class="game-title">WordQuake</h1>
+        <h2>Choose your Character</h2>
+        <p id="game-status">Waiting for game update...</p>
+        <div class="carousel-wrapper">
+            <button class="btn prev" onclick="moveSlide(-1)">❮</button>
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="slide"><img src="Images/blackShibaanim.gif" alt="Black Shiba"></div>
+                    <div class="slide"><img src="Images/foxanim.gif" alt="Fox"></div>
+                    <div class="slide"><img src="Images/kitsuneanim.gif" alt="Kitsune"></div>
+                    <div class="slide"><img src="Images/orangecatanim.gif" alt="Orange Cat"></div>
+                    <div class="slide"><img src="Images/pikachillaanim.gif" alt="Pikachu"></div>
+                    <div class="slide"><img src="Images/shadowtanukianim.gif" alt="Shadow Tanuki"></div>
+                    <div class="slide"><img src="Images/Shibaanim.gif" alt="Shiba"></div>
+                    <div class="slide"><img src="Images/tanukianim.gif" alt="Tanuki"></div>
+                </div>
+            </div>
+            <button class="btn next" onclick="moveSlide(1)">❯</button>
+        </div>
+
+        <div class="pokemon-name" id="pokemonName">Black Shiba</div>
+
+        <input type="text" id="playerName" placeholder="Enter your Name..." onfocus="this.placeholder=''"
+            onblur="this.placeholder='Enter your name...'">
+
+        <input type="text" id="roomID" placeholder="Enter the Lobby ID" onfocus="this.placeholder=''"
+            onblur="this.placeholder='Enter the Lobby ID'">
+
+        <button class="ready-btn" onclick="Join()">Join</button>
+    </div>
+
+    <div id="waitingContainer" style="display: block;">
+        <div id="wait">Waiting for the Game to Start<span id="dots"></span></div>
+    </div>
+
+    <div id="lobbyContainer" style="display: block;">
+
+        <h2 style="padding: 5px;">Enter a Word!!</h2>
+        <input type="text" name="text-box" id="wordInput" placeholder="Type Here...">
+        <br>
+        <button id="sendWord" style="margin-top: 20px;">Submit</button>
+        <br>
+        <h2 style="margin-top: 25px;">Abilities</h2>
+        <div class="abilities" style="margin-top: 10px;">
+            <button id="ability1" style="margin-left: 10px;margin-right: 10px;">Ability1</button>
+            <button id="ability2" style="margin-left: 10px;margin-right: 10px;">Ability2</button>
+        </div>
+        <br />
+        <p id="feedback">Waiting for game update...</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

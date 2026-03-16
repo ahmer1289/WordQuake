@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Word Quake</title>
+</head>
+
+<body>
+    <h2>Enter a Word</h2>
+    <input type="text" name="text-box" id="wordInput" placeholder="Type Here...">
+    <br>
+    <button id="sendWord">submit</button>
+    <br>
+    <h2>Abilities</h2>
+    <div class="abilities">
+        <button id="ability1">Ability1</button>
+        <button id="ability2">Ability2</button>
+        <button id="ability3">Ability3</button>
+    </div>
+
+    <p id="feedback"></p>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

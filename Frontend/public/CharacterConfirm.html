@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Carousel</title>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.js"></script> -->
+    <script src="/socket.io/socket.io.js"></script>
+    <link rel="stylesheet" href="CharacterConfirm.css">
+</head>
+
+<body>
+
+    <h1>Choose your Character</h1><br>
+    <h1>Game Status:</h1>
+    <p id="game-status">Waiting for game update...</p>
+    <div class="carousel-wrapper">
+        <button class="btn prev" onclick="moveSlide(-1)">❮</button>
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="slide"><img src="Images/blackShibaanim.gif" alt="Black Shiba"></div>
+                <div class="slide"><img src="Images/foxanim.gif" alt="Fox"></div>
+                <div class="slide"><img src="Images/kitsuneanim.gif" alt="Kitsune"></div>
+                <div class="slide"><img src="Images/orangecatanim.gif" alt="Orange Cat"></div>
+                <div class="slide"><img src="Images/pikachillaanim.gif" alt="Pikachu"></div>
+                <div class="slide"><img src="Images/shadowtanukianim.gif" alt="Shadow Tanuki"></div>
+                <div class="slide"><img src="Images/Shibaanim.gif" alt="Shiba"></div>
+                <div class="slide"><img src="Images/tanukianim.gif" alt="Tanuki"></div>
+            </div>
+        </div>
+        <button class="btn next" onclick="moveSlide(1)">❯</button>
+    </div>
+
+    <div class="pokemon-name" id="pokemonName">Black Shiba</div>
+
+    <input type="text" id="playerName" placeholder="Enter your Name..." onfocus="this.placeholder=''"
+        onblur="this.placeholder='Enter your name...'">
+
+    <button class="ready-btn" onclick="sendReady()">Ready</button>
+
+    <script src="CharacterConfirm.js"></script>
+</body>
+
+</html>

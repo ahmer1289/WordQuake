@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - SpecialWordObject
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Sky
+    uniqueID: 3573657059
+    locked: 0
+  - name: Outside
+    uniqueID: 1932330615
+    locked: 0
+  - name: Patio
+    uniqueID: 1678531313
+    locked: 0
+  - name: Plants
+    uniqueID: 1049542895
+    locked: 0
+  - name: Interior
+    uniqueID: 2076754453
+    locked: 0
+  - name: Cushions&Light
+    uniqueID: 1722094949
+    locked: 0
+  - name: Character
+    uniqueID: 1655257873
+    locked: 0
+  - name: Table
+    uniqueID: 323075633
+    locked: 0
+  - name: Item
+    uniqueID: 863791201
+    locked: 0
+  - name: Info
+    uniqueID: 1980615219
+    locked: 0

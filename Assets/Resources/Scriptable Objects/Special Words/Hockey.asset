@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9c0474c7e420ab4bb265624ba6de37a, type: 3}
+  m_Name: Hockey
+  m_EditorClassIdentifier: 
+  word: Hockey
+  m_LifeTime: 2
+  m_Force: 8
+  specialWordPrefab: {fileID: 8552129375310269969, guid: 688409be618d62247a08d2d6c217f890, type: 3}
